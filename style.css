@@ -9,20 +9,37 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr;
-  grid-template-rows: 75px 1fr 75px ;
+  grid-template-rows: 108px 1fr 75px ;
 }
 
 header {
-  background-image: radial-gradient(circle at 87.5% 12.5%, #aa76fc 0, #815de9 25%, #4d42d4 50%, #002bbf 75%, #001bad 100%);
-  text-align: center;
+  /* background-image: radial-gradient(circle at 87.5% 12.5%, #aa76fc 0, #815de9 25%, #4d42d4 50%, #002bbf 75%, #001bad 100%); */
+  /* text-align: center; */
   color: rgb(10, 8, 8);
   padding: 16px 0;
-
-  background-color: blueviolet;
+  background-color: #345457;
+  /* background-color: blueviolet; */
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
   grid-template-rows: 1fr;
 }
+
+/* nav  {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+nav ul {
+	padding: 0;
+	display: flex;
+	align-items: center;
+
+}
+nav ul li {
+	list-style: none;
+} */
 
 main {
   padding: 16px 32px;
@@ -58,12 +75,21 @@ section:hover {
   transform: scale(1.1);
 }
 
-img {
+.livro-img {
   height: 256px;
 }
 
+.logo-large {
+  height: 75px;
+}
+
+.logo {
+  height: 75px;
+  margin-left: 40px;
+}
+
 footer {
-  background-color: #242424;
+  background-color: #345457;
   padding: 20px 0;
   text-align: center;
   color: white;
@@ -85,20 +111,20 @@ p {
 
 button {
   margin: 3px;
-  background-color: rgb(238, 8, 96);
-  color: rgb(218, 169, 207);
+  background-color: rgb(85, 212, 151);
+  color: rgb(60, 88, 74);
   font-family: serif;
 
 }
 
 aside:has(button:active) {
-  color: rgb(211, 50, 50);
-  background-color: rgb(7, 7, 7);
+  color: rgb(30, 76, 46);
+  background-color: rgb(1, 19, 7);
 }
 
 button:active {
-  background-color: rgb(139, 63, 221);
-  color: rgb(243, 149, 149);
+  background-color: rgb(26, 217, 141);
+  color: rgb(7, 57, 41);
 }
 
 .botao{

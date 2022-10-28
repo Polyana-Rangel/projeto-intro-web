@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Livros</title>
-        <script src="index.js" defer></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <div class="page">
-            <header>
-                <h1>Livros 📖</h1>
-                <h1 class="nome">Estante Virtual</h1>
-                <form action="#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <img class="logo" src="./livro.png " alt="">
+            <img class="logo-large" src="./estantevirtual.png" alt="">
+            <!-- <nav>
+                <ul>
+                    <li><img src="./livro.png " alt=""></li> 
+                    <li><img src="./estantevirtual.png" alt=""></li>
+                </ul>
+            </nav> -->
+            <!-- <h1><img src="./livro.png" alt=""></h1>
+                <h1 class="nome"> <img src="./estantevirtual.png" alt=""></h1> -->
+            <form action="#">
                 <label for="livro">Livro 🔎</label>
-                    <div class="botao" >
+                <div class="botao">
                     <input type="text" id="Livro" name="Livro">
-        
+
                     <button type="button" onclick="buscaLivro()">Buscar</button>
                 </div>
-                </form>
-            </header>
+            </form>
+        </header>
 
-            <main>
-                <article id="biblioteca"></article>          
-            </main>
+        <main>
+            <article id="biblioteca"></article>
+        </main>
 
-            <footer>
-                <h4>
-                    Olá, sou a Polyana, criadora do site Livros. Mais informações no meu 
-                    <a href="https://github.com/Polyana-Rangel"> Github 🔎 </a> 
-                </h4>
-            </footer>
-        </div>
-    </body>
+        <footer>
+            <h4>
+                Olá, sou a Polyana, criadora do site Livros. Mais informações no meu
+                <a href="https://github.com/Polyana-Rangel"> Github 🔎 </a>
+            </h4>
+        </footer>
+    </div>
+</body>
+
 </html>
