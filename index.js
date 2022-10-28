@@ -119,6 +119,7 @@ function criaTela(livrosFiltrados) {
     
         const linkW = document.createElement("a")
         linkW.setAttribute("href", livroObjeto.linkDoTitulo)
+        linkW.setAttribute("target","_blank")
     
         linkW.innerHTML = `"${livroObjeto.titulo} 🔎"`
     
