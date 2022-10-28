@@ -3,79 +3,88 @@ function geraLivros() {
     objeto1 = {
         titulo: "O Pequeno Principe",
         anoDeLancamento: 1943,
-        linkDoTitulo: "https://pt.wikipedia.org/wiki/Le_Petit_Prince",
+        linkDoTitulo: "https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery.pdf",
         categorias: ["infantil", "filosofica", "poetica", "romantico"],
-        imagemLivro: "https://m.media-amazon.com/images/I/51nNwwVSclL.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/51nNwwVSclL.jpg",
+        virouFilme: true
     }
     
     objeto2 = {
         titulo: "After",
         anoDeLancamento: 2014,
-        linkDoTitulo: "https://pt.wikipedia.org/wiki/After_(s%C3%A9rie_de_livros)",
+        linkDoTitulo: "https://viveramfelizesparasempreblog.files.wordpress.com/2017/04/06-before-anna-todd.pdf",
         categorias: ["adolescente", "romantico", "drama", "autoastral"],
-        imagemLivro: "https://m.media-amazon.com/images/I/810FrINgfYS.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/810FrINgfYS.jpg",
+        virouFilme: true
     }
     
     objeto3 = {
-        titulo: "O Hobbit 🔎",
+        titulo: "O Hobbit ",
         anoDeLancamento: 1937,
-        linkDoTitulo: "hhttps://pt.wikipedia.org/wiki/O_Hobbit",
+        linkDoTitulo: "https://ddcus.org/pdf/summer_reading/10th_Grade/O%20Hobbit%20-%20J_%20R_%20R_%20Tolkien%20-%20BEAP%2010%20Portuguese.pdf",
         categorias: ["tecnico", "filosofico", "ciencia"],
-        imagemLivro: "https://m.media-amazon.com/images/I/511+-lOOtsL._SX319_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/511+-lOOtsL._SX319_BO1,204,203,200_.jpg",
+        virouFilme: true
     
     }
     
     objeto4 = {
         titulo: "Clean Code",
         anoDeLancamento: 2008,
-        linkDoTitulo: "https://de.wikipedia.org/wiki/Clean_Code",
+        linkDoTitulo: "https://thixalongmy.haugiang.gov.vn/media/1175/clean_code.pdf",
         categorias: ["tecnico", "filosofico", "ciencia"],
-        imagemLivro: "https://m.media-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        virouFilme: false
     
     }
     
     objeto5 = {
-        titulo: "É Assim que Acaba 🔎",
+        titulo: "É Assim que Acaba ",
         anoDeLancamento: 2008,
-        linkDoTitulo: "https://en.wikipedia.org/wiki/It_Ends_with_Us",
+        linkDoTitulo: "https://visionvox.net/biblioteca/c/Colleen_Hoover_%C3%89_Assim_Que_Acaba.pdf",
         categorias:["adolescente", "romantico", "drama", "autoastral"],
-        imagemLivro: "https://m.media-amazon.com/images/I/51i7kH+rh9L._SY344_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/51i7kH+rh9L._SY344_BO1,204,203,200_.jpg",
+        virouFilme: false
     
     }
     
     objeto6 = {
-        titulo: "O diário de Anne Frank 🔎",
+        titulo: "O diário de Anne Frank ",
         anoDeLancamento: 1944,
-        linkDoTitulo: "https://pt.wikipedia.org/wiki/Di%C3%A1rio_de_Anne_Frank",
+        linkDoTitulo: "https://youtruth.weebly.com/uploads/1/3/1/8/1318459/o_diario_de_anne_frank_-portuguese.pdf",
         categorias: ["adolescente", "romantico", "drama", "autoastral"],
-        imagemLivro: "https://m.media-amazon.com/images/I/41+PZUZS7LL._SX346_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/41+PZUZS7LL._SX346_BO1,204,203,200_.jpg",
+        virouFilme: true
     
     }
     
     objeto7 = {
-        titulo: "O homem mais rico da Babilônia 🔎",
+        titulo: "O homem mais rico da Babilônia ",
         anoDeLancamento: 1926,
-        linkDoTitulo: "https://pt.wikipedia.org/wiki/O_Homem_Mais_Rico_da_Babil%C3%B4nia",
+        linkDoTitulo: "https://faroeditorial.com.br/site2020/wp-content/uploads/2017/04/Mini-livro-o-homem-mais-rico-.pdf",
         categorias: ["adolescente", "romantico", "drama", "autoastral"],
-        imagemLivro: "https://m.media-amazon.com/images/I/51cB4wSNxQL._SX333_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/51cB4wSNxQL._SX333_BO1,204,203,200_.jpg",
+        virouFilme: false
     
     }
     
     objeto8 = {
-        titulo: "Mulheres que correm com os lobos 🔎",
+        titulo: "Mulheres que correm com os lobos ",
         anoDeLancamento: 1992,
-        linkDoTitulo: "https://pt.wikipedia.org/wiki/Clarissa_Pinkola_Est%C3%A9s",
+        linkDoTitulo: "https://eduardolbm.files.wordpress.com/2014/10/mulheres-que-correm-com-os-lobos-clarissa-pinkola-estes.pdf",
         categorias: ["tecnico", "filosofico", "ciencia"],
-        imagemLivro: "https://m.media-amazon.com/images/I/41ogXvQ5WYL._SX341_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/41ogXvQ5WYL._SX341_BO1,204,203,200_.jpg",
+        virouFilme: false
     
     }
     
     objeto9 = {
-        titulo: "Os sete maridos de Evelyn Hugo 🔎",
+        titulo: "Os sete maridos de Evelyn Hugo ",
         anoDeLancamento: 2017,
-        linkDoTitulo: "https://en.wikipedia.org/wiki/The_Seven_Husbands_of_Evelyn_Hugo",
+        linkDoTitulo: "https://livrogratuitosja.com/wp-content/uploads/2022/08/Os-sete-maridos-de-Evelyn-Hugo-Taylor-Jenkins-Reid-Reid-Taylor-Jenkins-z-lib.org_.pdf",
         categorias: ["tecnico", "filosofico", "ciencia"],
-        imagemLivro: "https://m.media-amazon.com/images/I/41xVhz5sL1L._SX346_BO1,204,203,200_.jpg"
+        imagemLivro: "https://m.media-amazon.com/images/I/41xVhz5sL1L._SX346_BO1,204,203,200_.jpg",
+        virouFilme: true
     
     }
 
@@ -116,6 +125,7 @@ function criaTela(livrosFiltrados) {
         const imagem = document.createElement("img")
         imagem.setAttribute("src", livroObjeto.imagemLivro)
         imagem.setAttribute("alt", livroObjeto.titulo)
+        imagem.setAttribute("class", "livro-img")
     
         titulo.insertAdjacentElement('beforeend', linkW)
         
@@ -153,7 +163,7 @@ function buscaLivro() {
 
     if(livrosFiltrados.length > 0) {
         criaTela(livrosFiltrados)
-    } else if (filtro.length === 0) {
+    } else if (filtro.length === "") {
         criaTela(livros)
     } else {
         alert("Livro não encontrado")
@@ -163,11 +173,45 @@ function buscaLivro() {
    
 }
 
+// Função responsável por gerar relatório dos livros
+function geraRelatorio() {
+    console.log("Relatório: ")
+    
+
+    for(let livro of livros) {
+        console.log(`
+            Nome do livro: ${livro.titulo.toLocaleUpperCase()}
+            Ano de lançamento do livro: ${livro.anoDeLancamento}
+            Virou filme: ${livro.virouFilme}
+            Categoria que ele se enquadra: ${livro.categorias}
+        `);
+    }
+}
+
+
 
 // Inicio do sistema
 const livros = geraLivros();
-
 criaTela(livros)
+geraRelatorio()
+
+
+function calculaAnos(){
+   
+    let soma = 0
+    let media=0
+
+    for(let i =0;i<livros.length;i++){ 
+      soma+=livros[i].anoDeLancamento; 
+
+    }
+    media = soma/livros.length
+    return media
+}
+console.log(`Media dos anos que os livros foram lançados : ${calculaAnos()}`)
+
+// const mediaDosanos = ((anoDeLancamento + anoDeLancamento2 + anoDeLancamento3) / 3)
+// console.log("A media dos anos de lançamento dos 3 livros é :", mediaDosanos)
 
 
 // Anotações
